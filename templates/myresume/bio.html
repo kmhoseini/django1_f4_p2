@@ -1,0 +1,70 @@
+{%extends 'myresume/base.html'%}
+{%load static %}
+{% block content %}
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.2" data-stellar-vertical-offset="0" data-background="">
+        </div>
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="container">
+                    <div class="section-title">
+                        <br>
+                        <br>
+                        <br>
+                        <h2>درباره من </h2>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="{% static 'img/about.jpg' %}" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-8 pt-4 pt-rg-0 content">
+                            <h3>مشخصات</h3>
+                            <p class="fst-italic">
+                            </p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>تاریخ تولد:</strong> 1355 شهریور
+                                        </li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>وبسایت:</strong> www.example.com
+                                        </li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>تلفن:</strong> +98 <span></span>
+                                            9122580590</li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>شهر :</strong> تهران</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>سن:</strong> 47</li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>تحصیلات:</strong> کارشناس ارشد
+                                        </li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>ایمیل:</strong>
+                                            kmhoseini76@gmail.com
+                                        </li>
+                                        <li><i class="bi bi-rounded-right"></i> <strong>فریلنسر:</strong>دورکار</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section><!-- End About Section -->
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+
+
+
+    {%endblock %}
